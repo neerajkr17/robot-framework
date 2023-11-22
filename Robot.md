@@ -62,7 +62,7 @@ neeraj\@neeraj-G3-3500:\~$
 
 2. ## Install pip
 
-           sudo apt install python3-pip
+           ```sudo apt install python3-pip```
 
 Output:-
 
