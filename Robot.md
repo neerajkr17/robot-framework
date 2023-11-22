@@ -65,6 +65,7 @@ neeraj\@neeraj-G3-3500:\~$
            ```sudo apt install python3-pip```
 
 Output:-
+```
 
 Reading package lists... Done
 
@@ -155,20 +156,28 @@ Setting up python3-pip (22.0.2+dfsg-1ubuntu0.4) ...
 Processing triggers for man-db (2.10.2-1) ...
 
 neeraj\@neeraj-G3-3500:\~$ 
+```
 
 3. ## Install Pycharm
 
- sudo snap install pycharm-community --classic
+``` 
+sudo snap install pycharm-community --classic
+```
 
 Output:-
+```
 
 snap "pycharm-community" is already installed, see 'snap help refresh'
+```
 
 4. ## Install Selenium
+```
 
 pip3 install selenium
+```
 
 Output:-
+```
 
 Defaulting to user installation because normal site-packages is not writeable
 
@@ -201,10 +210,13 @@ Requirement already satisfied: PySocks!=1.5.7,<2.0,>=1.5.6 in ./.local/lib/pytho
 Requirement already satisfied: h11<1,>=0.9.0 in ./.local/lib/python3.10/site-packages (from wsproto>=0.14->trio-websocket\~=0.9->selenium) (0.14.0)
 
 neeraj\@neeraj-G3-3500:\~$ 
+```
 
 5. ## Install Robot Framework (Using pip)
+```
 
  pip3 install robotframework
+```
 
 Output:-
 
