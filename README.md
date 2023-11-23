@@ -365,7 +365,10 @@ Step 3:- Write this code to check the functionality of the website.
        Log    ${SuccessMessage}
        Sleep    0.5
 
-To run the script enter this command in terminal of Pycharm => robot Automation/test.robot
+To run the script enter this command in terminal of Pycharm =>
+```
+robot Automation/test.robot
+```
 
 Output:-
 ```
