@@ -57,6 +57,18 @@ The [test data](https://robotframework.org/robotframework/latest/RobotFrameworkU
 
 # Setup:-
 
+## Prerequisite
+
+### OS Detials:
+ 
+    NAME="Ubuntu"
+
+    VERSION_ID="22.04"
+
+    VERSION="22.04.3 LTS
+
+    Python 3.10.12
+
 ## 1. Install Python 
 
 Ubuntu usually comes with Python pre-installed
