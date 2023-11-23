@@ -29,18 +29,18 @@ Robot Framework is open source software released under the [Apache License 2.0](
 
 # Why Robot Framework?
 
-- Enables easy-to-use tabular syntax for [creating test cases](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-cases) in a uniform way.
-- Provides ability to create reusable [higher-level keywords](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-user-keywords) from the existing keywords.
-- Provides easy-to-read result [reports](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#report-file) and [logs](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#log-file) in HTML format.
+- Enables easy-to-use tabular syntax for creating test cases in a uniform way.
+- Provides ability to create reusable higher-level keywords from the existing keywords.
+- Provides easy-to-read result reports and logs in HTML format.
 - Is platform and application independent.
-- Provides a simple [library API](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-libraries) for creating customised test libraries which can be implemented natively with Python.
-- Provides a [command line interface](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#executing-test-cases-1) and XML based [output files](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#output-file) for integration into existing build infrastructure (continuous integration systems).
+- Provides a simple library API for creating customised test libraries which can be implemented natively with Python.
+- Provides a command line interface and XML based output files for integration into existing build infrastructure (continuous integration systems).
 - Provides support for testing web applications, rest APIs, mobile applications, running processes, connecting to remote systems via Telnet or SSH, and so on.
-- Supports creating [data-driven test cases](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#data-driven-style).
-- Has built-in support for [variables](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#variables), practical particularly for testing in different environments.
-- Provides [tagging](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#tagging-test-cases) to categorise and [select test cases](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#selecting-test-cases) to be executed.
-- Enables easy integration with source control: [test suites](http://robot-framework.readthedocs.org/en/master/autodoc/robot.running.html#robot.running.model.TestSuite) are just files and directories that can be versioned with the production code.
-- Provides [test-case](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#test-setup-and-teardown) and [test-suite](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#suite-setup-and-teardown) -level setup and teardown.
+- Supports creating data-driven test cases.
+- Has built-in support for variables practical particularly for testing in different environments.
+- Provides tagging to categorise and select test cases to be executed.
+- Enables easy integration with source control: test suites are just files and directories that can be versioned with the production code.
+- Provides test-case and test-suite -level setup and teardown.
 - The modular architecture supports creating tests even for applications with several diverse interfaces.
 
 
