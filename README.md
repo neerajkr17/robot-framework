@@ -1,6 +1,21 @@
 Robot - Writing functionality tests with Robot
 
+
 ![](https://lh7-us.googleusercontent.com/HXudCFnp-nAi-br_k2Y4qeB9n3oDU6mW1bfUXuvxHAqAXD_-ePvXSwCvXm1rxHyEWPKZixyfo-3_-lvFmDFbcDiiwHJX9d2EF0b5Vi3_igFIF-6OJFKt4uNUATUTFBZbQgo39MH4X3qCCDEgfdG6QJE)
+
+# Table of Content
+
+[Introduction](#introduction)
+
+[Why Robot Framework?](#why-robot-framework)
+
+[high-level-architecture](#high-level-architecture)
+
+[Setup](#setup)
+
+[Test Demo](#Test-Demo)
+
+
 
 
 # Introduction
@@ -12,7 +27,7 @@ The framework has a rich ecosystem around it consisting of various generic libra
 Robot Framework is open source software released under the [Apache License 2.0](http://apache.org/licenses/LICENSE-2.0). Its development is sponsored by the [Robot Framework Foundation](http://robotframework.org/foundation).
 
 
-# [Why Robot Framework?](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#toc-entry-222)
+# Why Robot Framework?
 
 - Enables easy-to-use tabular syntax for [creating test cases](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-cases) in a uniform way.
 - Provides ability to create reusable [higher-level keywords](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-user-keywords) from the existing keywords.
@@ -29,7 +44,7 @@ Robot Framework is open source software released under the [Apache License 2.0](
 - The modular architecture supports creating tests even for applications with several diverse interfaces.
 
 
-## [High-level architecture](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#toc-entry-223)
+# High-level architecture
 
 Robot Framework is a generic, application and technology independent framework. It has a highly modular architecture illustrated in the diagram below.
 
@@ -42,7 +57,7 @@ The [test data](https://robotframework.org/robotframework/latest/RobotFrameworkU
 
 # Setup:-
 
-1. ## Install Python 
+## 1. Install Python 
 
 Ubuntu usually comes with Python pre-installed
 
@@ -64,7 +79,7 @@ Python 3.10.12
 neeraj\@neeraj-G3-3500:\~$
 ```
 
-2. ## Install pip
+## 2. Install pip
 ```
 sudo apt install python3-pip
 ```
@@ -163,7 +178,7 @@ Processing triggers for man-db (2.10.2-1) ...
 neeraj\@neeraj-G3-3500:\~$ 
 ```
 
-3. ## Install Pycharm
+## 3. Install Pycharm
 
 ``` 
 sudo snap install pycharm-community --classic
@@ -175,7 +190,7 @@ Output:-
 snap "pycharm-community" is already installed, see 'snap help refresh'
 ```
 
-4. ## Install Selenium
+## 4. Install Selenium
 ```
 
 pip3 install selenium
@@ -217,7 +232,7 @@ Requirement already satisfied: h11<1,>=0.9.0 in ./.local/lib/python3.10/site-pac
 neeraj\@neeraj-G3-3500:\~$ 
 ```
 
-5. ## Install Robot Framework (Using pip)
+## 5. Install Robot Framework (Using pip)
 ```
 
  pip3 install robotframework
@@ -231,7 +246,7 @@ Defaulting to user installation because normal site-packages is not writeable
 Requirement already satisfied: robotframework in ./.local/lib/python3.10/site-packages (6.1.1)
 ```
 
-6. ## Install Robot Framework Selenium Library (Using pip)
+## 6. Install Robot Framework Selenium Library (Using pip)
    
 ```
 pip3 install robotframework-seleniumlibrary
@@ -276,7 +291,7 @@ Requirement already satisfied: PySocks!=1.5.7,<2.0,>=1.5.6 in ./.local/lib/pytho
 Requirement already satisfied: h11<1,>=0.9.0 in ./.local/lib/python3.10/site-packages (from wsproto>=0.14->trio-websocket\~=0.9->selenium>=4.3.0->robotframework-seleniumlibrary) (0.14.0)
 ```
 
-7. ## Install Required Packages in Pycharm:-
+## 7. Install Required Packages in Pycharm:-
 
 <!---->
 
@@ -286,7 +301,8 @@ Requirement already satisfied: h11<1,>=0.9.0 in ./.local/lib/python3.10/site-pac
 
 ![](https://lh7-us.googleusercontent.com/2bBebKT4sS6TRJBUr7-RhxU1bNB8FWOiXot-la1NvxTFlRF8ZfCiVqLO29AlB2bZSFRRTv8QJ9T0EMowU5w1e5oq8RZBaAlee7JCTlbewToG5c2-1nrmDtKduMUgmHoaSbvW06AUyn9ZFdL5AiNL-bU)
 
-8. ## Install this plugin in Pycharm:-
+## 8. Install this plugin in Pycharm:-
+Install Hyper RobotFramework Support Plugin in Pycharm 
 
 ![](https://lh7-us.googleusercontent.com/Yqg-rwZnPM8VMdCQkufmkcZ8K4i_-4gWLAlnR5NfrM-xcCh7qCAmnRPhz40EGgnO3NhQiC_LsKnw4pn36bSf2Cj4oqgyPurrDJnOPLoNqENZPXlFCLq3eyZ-OqfK9TbDxm6NPwOQbPKmpkv5NL4dKLk)
 
