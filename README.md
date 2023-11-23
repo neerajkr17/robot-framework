@@ -5,15 +5,15 @@ Robot - Writing functionality tests with Robot
 
 # Table of Content
 
-[Introduction](#introduction)
+1. [Introduction](#introduction)
 
-[Why Robot Framework?](#why-robot-framework)
+2. [Why Robot Framework?](#why-robot-framework)
 
-[high-level-architecture](#high-level-architecture)
+3. [high-level-architecture](#high-level-architecture)
 
-[Setup](#setup)
+4. [Setup](#setup)
 
-[Test Demo](#Test-Demo)
+5. [Test Demo](#Test-Demo)
 
 
 
