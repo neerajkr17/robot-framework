@@ -49,20 +49,26 @@ Ubuntu usually comes with Python pre-installed
 Check Python Version:
 
 Open a terminal and check if Python is already installed by typing:
+```
 
       python3 --version
+```
 
 Output:-
+```
 
 neeraj\@neeraj-G3-3500:\~$ python3 --version
 
 Python 3.10.12
 
 neeraj\@neeraj-G3-3500:\~$
+```
 
 2. ## Install pip
 
-           ```sudo apt install python3-pip```
+           ```
+           sudo apt install python3-pip
+           ```
 
 Output:-
 ```
@@ -219,17 +225,21 @@ neeraj\@neeraj-G3-3500:\~$ 
 ```
 
 Output:-
+```
 
 Defaulting to user installation because normal site-packages is not writeable
 
 Requirement already satisfied: robotframework in ./.local/lib/python3.10/site-packages (6.1.1)
+```
 
 6. ## Install Robot Framework Selenium Library (Using pip)
-
+   
+```
 pip3 install robotframework-seleniumlibrary
+```
 
 Output:-
-
+```
 Defaulting to user installation because normal site-packages is not writeable
 
 Requirement already satisfied: robotframework-seleniumlibrary in ./.local/lib/python3.10/site-packages (6.1.3)
@@ -265,6 +275,7 @@ Requirement already satisfied: wsproto>=0.14 in ./.local/lib/python3.10/site-pac
 Requirement already satisfied: PySocks!=1.5.7,<2.0,>=1.5.6 in ./.local/lib/python3.10/site-packages (from urllib3\[socks]<3,>=1.26->selenium>=4.3.0->robotframework-seleniumlibrary) (1.7.1)
 
 Requirement already satisfied: h11<1,>=0.9.0 in ./.local/lib/python3.10/site-packages (from wsproto>=0.14->trio-websocket\~=0.9->selenium>=4.3.0->robotframework-seleniumlibrary) (0.14.0)
+```
 
 7. ## Install Required Packages in Pycharm:-
 
@@ -358,7 +369,7 @@ Step 3:- Write this code to check the functionality of the website.
 To run the script enter this command in terminal of Pycharm => robot Automation/test.robot
 
 Output:-
-
+```
 (venv) neeraj\@neeraj-G3-3500:\~/PycharmProjects/pythonProject$ robot Automation/test.robot
 
 \==============================================================================
@@ -385,4 +396,5 @@ Log:     /home/neeraj/PycharmProjects/pythonProject/log.html
 
 Report:  /home/neeraj/PycharmProjects/pythonProject/report.html
 
-(venv) neeraj\@neeraj-G3-3500:\~/PycharmProjects/pythonProject$ 
+(venv) neeraj\@neeraj-G3-3500:\~/PycharmProjects/pythonProject$
+```
