@@ -52,7 +52,7 @@ Robot Framework is a generic, application and technology independent framework. 
 
 _Robot Framework architecture_
 
-The [test data](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-data) is in simple, easy-to-edit tabular format. When Robot Framework is started, it processes the data, [executes test cases](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#executing-test-cases-1) and generates logs and reports. The core framework does not know anything about the target under test, and the interaction with it is handled by [libraries](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-libraries). Libraries can either use application interfaces directly or use lower level test tools as drivers.
+The test data is in simple, easy-to-edit tabular format. When Robot Framework is started, it processes the data, executes test cases and generates logs and reports. The core framework does not know anything about the target under test, and the interaction with it is handled by libraries. Libraries can either use application interfaces directly or use lower level test tools as drivers.
 
 
 # Setup:-
